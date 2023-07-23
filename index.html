@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>supabase</title>
+    <link rel="icon" href="assets/inline-logo.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="tools/atom-one-dark-reasonable.css">
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <nav>
+        <div class="navbar">
+            <div class="logo">
+                <div class="mobile-btn" onclick="openNav()">&#9776;</div>
+                <div class="logo">
+                    <img id="logo-white" src="assets/s-logo.svg"/>
+                    <img id="logo-black" src="assets/logo-cropped.svg"/>
+                </div>
+            </div>
+            <div class="links">
+                <a href="" >Product <img class="arrow-img" src="assets/arrow.svg"/></a>
+                <a href="" >Developers <img class="arrow-img" src="assets/arrow.svg"/></a>
+                <a href="" >Beta</a>
+                <a href="" >Pricing</a>
+            </div>
+            <div class="links">
+                <button href="" class="btn-green">Start your project</button>
+                <a href="">Sign in</a>
+            </div>
+        </div>
+        </nav>
+        <div class="mySidenav sidenav">
+        <a style="cursor:pointer;" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Product</a>
+        <a href="#">Developers</a>
+        <a href="#">Beta</a>
+        <a href="#">Start your project</a>
+        <a href="#">Sign in</a>
+        </div>
+    </header>
+
+      <div class="spacer"></div>
+
+    <div class="container">
+        <div class="grid-container section-2fr">  
+            <div class="grid-item">
+                <div class="bottom-text">
+                    <img class="svg-bg-mr"  src="assets/storage.svg" alt="">Storage</div>
+                <h1 class="heading">Store and serve<br>any type of digital content</h1>
+                <div class="info">
+                    <p>An open source Object store service with unlimited scalability, for any file type.<br><br>
+                        With custom policies and permissions that are familiar and easy to implement.
+                    </p>
+                </div>
+                <div class="btn-spacer">
+                    <a href="" class="btn-green-v2" >Start a project</a>
+                </div>
+            </div>
+            <div class="grid-item"><img class="section-image image-mob" src="assets/image-2.png" alt="logo"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="grid-container section-3fr">  
+            <div class="grid-item-fr3">
+                <div class="opt-row mb">
+                    <img class="svg-bg"src="assets/grey-storage.svg" alt="">
+                    <img src="assets/x.svg" alt="">
+                    <img class="svg-bg" src="assets/key.svg" alt="">
+                    <img src="assets/x.svg" alt="">
+                    <img class="svg-bg"src="assets/drive.svg" alt="">
+                </div>
+                <h5 class="title">Interoperable</h5>
+                <h5>Integrates well with the rest of<br> Supabase ecosystem, including<br> Auth and Postgres.</h5>
+            </div>
+            <div class="grid-item-fr3">
+                <img class="mb" src="assets/level.svg" alt="">
+                <h5 class="title">Lightning fast</h5>
+                <h5>Thin API server layer that<br> leverages Postgres' permissions<br> and performance.</h5>
+            </div>
+            <div class="grid-item-fr3">
+                <img class="mb"  src="assets/check.svg" alt="">
+                <h5 class="title">Dependable</h5>
+                <p>Enterprise-level scalability and durability.</p>
+            </div>
+        </div>  
+    </div>
+    <div class="spacer"></div>
+    <div class="container">
+        <div class="section-block">
+                <h2>Sleek dashboard for managing your media</h2>
+            <div class="section-text">
+                <h5>A complete Object Explorer so that any of your team can use.</h5>
+                <p>
+                    Drag and drop uploading, moving objects, and multiple object selection. As easy as working on your desktop.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-v2">
+        <div class="grid-container section-fr-40">
+            <div class="grid-item-sleek">
+                <div class="grid-options-row">
+                    <div class="options-item active">File previews</div>
+                    <div class="options-item">Column view</div>
+                    <div class="options-item">List view</div>
+                    <div class="options-item">Multi select actions</div>
+                    <div class="options-item">Path navigator</div>
+                </div>   
+                <img class="section-image" src="assets/image-3.svg" alt="logo">
+            </div>
+            <div class="grid-item-sleek">
+                <h5>File previews</h5>
+                <p>Preview any media type, including video and<br> audio.</p><br><br>
+                <h5>Check out our example app</h5>
+                <div class="example-block">
+                    <h6>Profile management example</h6>
+                    <p>Update a user account with public profile<br> information, including uploading a profile image.</p><br>
+                    <div class="btn-text-by"><p>Created by: <img src="assets/inline-logo.svg"/> supabase</div>
+                </div><br>
+                <div class="mr-left">
+                    <p>nextjs-ts-user-management</p><br>
+                <a class="btn-blue"><img src="assets/deploy.svg"/></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="spacer"></div>
+
+    <div class="container-v2">
+        <div class="grid-container section-2fr">  
+            <div class="grid-item">
+                <h3>Simple and convenient <br>APIs</h3>
+                <br><p>Built from the ground-up for interoperable authentication.<br><br>
+                    Fast and easy to implement using our powerful library clients.<br> Asset optimization and image transformation coming soon!
+                </p>
+                <div class="grid-container section-2fr-v2">  
+                    <div class="grid-item pd">
+                        <img class="mb" src="assets/net.svg" alt="">
+                        <h5>CDN integration</h5>
+                            <p>Serve from the edge to<br> reduce latency.</p><br>
+                        <a href="" class="btn-transparent">Coming soon</a>
+                    </div>
+                    <div class="grid-item pd">
+                        <img class="mb" src="assets/vectors.svg" alt="">
+                        <p>Auto transformation &<br> optimisation</p><br>
+                            <p>Resize and compress your<br> media before you serve it.</p><br>
+                        <a href="" class="btn-transparent">Coming soon</a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-options-row">
+                    <div class="options-item active">Upload a file</div>
+                    <div class="options-item">Download a file</div>
+                    <div class="options-item">List files</div>
+                    <div class="options-item">Move and rename files</div>
+                    <div class="options-item">Delete files</div>
+                </div>   
+                <div class="code-wrapper">
+                    <button class="copy-btn"><img  src="assets/copy.svg" alt=""/>Copy</button>
+                    <pre>
+                        <code class="language-javascript">
+// Upload an image to the "avatars" bucket
+
+constspaceCat = event.target.files[ 0]
+
+const{ data, error } = awaitsupabase
+
+.storage
+
+.from( 'avatars')
+
+.upload( 'space-cat.png', spaceCat)
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-v2">
+        <div class="grid-container section-2fr">  
+            <div class="grid-item">
+                <h3>Integrates natively with Supabase Auth</h3><br><br>
+                <div class="auth-section">
+                    <p>Using Postgres Row Level Security to create Object access rules.<br><br><br>
+                        Storage Authorization is built around Postgres so that you can use<br> any combination of SQL, Postgres functions, and even your own<br> metadata to write policies.</p><br><br>    
+                        <a class="btn-grey"><img src="assets/vector.svg" alt="">Explore documentation</a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-options-row">
+                    <div class="options-item active">Public access to a bucket</div>
+                    <div class="options-item">Public access to a folder</div>
+                    <div class="options-item">Authenticated access to a bucket</div>
+                </div>  
+                <div class="code-wrapper">
+                    <button class="copy-btn"><img  src="assets/copy.svg" alt=""/>Copy</button>
+                    <pre>
+                        <code class="language-javascript">
+create policy "Public Access"
+
+onstorage.objects for all
+
+using( bucket_id = 'avatars');
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="spacer"></div>
+    
+    <div class="container scale-section"> 
+        <h3><bold style="color: #666666;">Build in a weekend,</bold> scale to millions.</h3>
+        <a href="" class="btn-green">Start your project</a>
+    </div>
+
+    <div class="spacer"></div>
+
+    <footer class="container">  
+        <div class="footer">
+            <div class="footer-col item1">
+                <div>
+                    <img id="logo-white" src="assets/s-logo.svg"/>
+                    <img id="logo-black" src="assets/logo-cropped.svg"/>
+                </div>
+                <div class="social">
+                    <img src="assets/twitter.svg" alt="logo">
+                    <img src="assets/linkedin.svg" alt="logo">
+                </div>
+            </div>
+            <div class="footer-col">
+                <h5>
+                    <a class="footer-heading" href="">Product</a>
+                </h5>
+                <ul>
+                    <li class="footer-link-title">
+                        <a href="" class="footer-link">Database</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="" class="footer-link">Authentication</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="" class="footer-link">Storage</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="" class="footer-link">Functions</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="" class="footer-link">Coming soon</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="" class="footer-link">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>
+                    <a class="footer-heading" href="">Resources</a>
+                </h5>
+                <ul>
+                    <li class="footer-link-title">
+                        <a href="" class="footer-link">Support</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="" class="footer-link">Case Studies</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="" class="footer-link">System Status</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="" class="footer-link">Terms of service</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>
+                    <a class="footer-heading" href="">Developers</a>
+                </h5>
+                <ul>
+                    <li class="footer-link-title">
+                        <a href="" class="footer-link">Documentation</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="" class="footer-link">API Reference</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="" class="footer-link">Guides</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>
+                    <a class="footer-heading" href="">Company</a>
+                </h5>
+                <ul>
+                    <li class="footer-link-title">
+                        <a href="" class="footer-link">Blog</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="" class="footer-link">Open Source</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="" class="footer-link">Humans.txt</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="" class="footer-link">Lawyers.txt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid-container section-2fr footer-align">
+            <div class="grid-item">
+                © Supabase Inc
+            </div>
+            <div class="grid-item swipe-align">
+                <img src="assets/sun.svg"/>
+                <label class="switch">
+                    <input class="toggle-theme" type="checkbox">
+                    <span class="slider"></span>
+                </label>
+                <img src="assets/moon.svg"/>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="script.js" defer=""></script>
+    <script src="tools/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
